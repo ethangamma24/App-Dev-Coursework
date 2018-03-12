@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>Menu</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="addItem()"><ion-icon name="add-circle"></ion-icon></button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+ <ion-list>
+  <ion-card *ngFor="let item of items" (click)="viewItem(item)">
+     <ion-item-sliding #Item>
+      <ion-item>
+        <img src="{{item.url}}"  height="150" width="100" />
+        <ion-card-content>
+          <ion-card-title>
+            {{item.itemName}}
+            </ion-card-title>
+          <p >
+           {{item.category}}
+           ${{item.price}}
+          </p>
+        </ion-card-content>
+      </ion-item>
+      <ion-item-options>
+        <button ion-button (click)="editItem(item)">Edit</button>
+        <button ion-button (click)="deleteItem(item)" color="danger">Delete</button>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-card>
+ </ion-list>
+</ion-content>
