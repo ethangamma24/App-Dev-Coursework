@@ -4,7 +4,6 @@ import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { IonicStorageModule } from '@ionic/storage';
 
-
 import { MyOrderPage } from '../pages/my-order/my-order';
 import { OrderDetailPage } from '../pages/order-detail/order-detail';
 import { MenuPage } from '../pages/menu/menu';
@@ -15,9 +14,9 @@ import { ItemDetailPage } from '../pages/item-detail/item-detail';
 import { SigninPage } from '../pages/signin/signin';
 import { SignupPage } from '../pages/signup/signup';
 
-
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { Camera } from '@ionic-native/camera'
 import { Data } from '../providers/data';
 
 @NgModule({
@@ -54,6 +53,7 @@ import { Data } from '../providers/data';
   providers: [
     StatusBar,
     SplashScreen,
+    Camera,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     Data
   ]})

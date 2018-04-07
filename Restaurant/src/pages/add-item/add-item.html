@@ -51,6 +51,13 @@
 
   </ion-list>
 
+  <img *ngIf="image" [src]="domSanitizer.bypassSecurityTrustUrl(image)" />
+  <button ion-button (click)="takePicture()">
+    Take Photo
+  </button>
+
+  <input type="file" id="pic">
+
   <button full ion-button color="primary" (click)="saveItem()">Save</button>
 
 </ion-content>

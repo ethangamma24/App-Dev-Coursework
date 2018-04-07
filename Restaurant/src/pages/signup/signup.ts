@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
-import { NavController, LoadingController } from 'ionic-angular';
+import { NavController } from 'ionic-angular';
 import { Parse } from 'parse';
 
 // Providers
 // import { AuthProvider } from '../../providers/auth/auth';
 
 // Pages
-import { TabsPage } from '../tabs/tabs';
+//import { TabsPage } from '../tabs/tabs';
 
 @Component({
   selector: 'page-signup',
@@ -18,7 +18,7 @@ export class SignupPage {
   verify: string = '';
   email: string = '';
 
-  constructor(public navCtrl: NavController, private loadCtrl: LoadingController) { }
+  constructor(public navCtrl: NavController) { }
 
   ionViewDidLoad() {
     console.log('Initiate Signup');

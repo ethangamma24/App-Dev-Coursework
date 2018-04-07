@@ -1,6 +1,6 @@
 webpackJsonp([2],{
 
-/***/ 175:
+/***/ 176:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -48,9 +48,9 @@ var ItemDetailPage = (function () {
     };
     ItemDetailPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-item-detail',template:/*ion-inline-start:"/Users/phoenix/Ionic/Restaurant/src/pages/item-detail/item-detail.html"*/'<ion-header>\n  <ion-navbar color="primary" >\n    <ion-title>\n      {{itemName}}\n    </ion-title>\n        <ion-buttons end>\n      <button ion-button icon-only (click)="saveOrder()"><ion-icon name="cart"></ion-icon></button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-card>\n    <ion-card-content>\n       <img src="{{url}}"  height="200" width="100" />\n       <br/>\n      {{category}}\n      ${{price}}\n      <br/>\n      <br/>\n      {{description}}\n      <br/>\n\n       <ion-item>\n    <ion-range min="1" max="15" [(ngModel)]="quantity" color="primary" pin="true" snaps="true" >\n      <ion-label range-left>1</ion-label>\n      <ion-label range-right>15</ion-label>\n    </ion-range>\n  </ion-item>\n\n  <ion-item>\n  <ion-label>Select A PickUp Time</ion-label>\n  <ion-datetime minuteValues="0,15,30,45" displayFormat="MM-DD-YY  HH:mm" [(ngModel)]="myDate">\n  </ion-datetime>\n</ion-item>\n\n   <br/>\n    \n    <p> Total: ${{price}} x {{quantity}} = $ {{price*quantity}} </p>\n\n  </ion-card-content>\n  </ion-card>\n</ion-content>\n'/*ion-inline-end:"/Users/phoenix/Ionic/Restaurant/src/pages/item-detail/item-detail.html"*/,
+            selector: 'page-item-detail',template:/*ion-inline-start:"/Users/phoenix/Documents/GitHub/App-Dev-Coursework/Restaurant/src/pages/item-detail/item-detail.html"*/'<ion-header>\n  <ion-navbar color="primary" >\n    <ion-title>\n      {{itemName}}\n    </ion-title>\n        <ion-buttons end>\n      <button ion-button icon-only (click)="saveOrder()"><ion-icon name="cart"></ion-icon></button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-card>\n    <ion-card-content>\n       <img src="{{url}}"  height="200" width="100" />\n       <br/>\n      {{category}}\n      ${{price}}\n      <br/>\n      <br/>\n      {{description}}\n      <br/>\n\n       <ion-item>\n    <ion-range min="1" max="15" [(ngModel)]="quantity" color="primary" pin="true" snaps="true" >\n      <ion-label range-left>1</ion-label>\n      <ion-label range-right>15</ion-label>\n    </ion-range>\n  </ion-item>\n\n  <ion-item>\n  <ion-label>Select A PickUp Time</ion-label>\n  <ion-datetime minuteValues="0,15,30,45" displayFormat="MM-DD-YY  HH:mm" [(ngModel)]="myDate">\n  </ion-datetime>\n</ion-item>\n\n   <br/>\n    \n    <p> Total: ${{price}} x {{quantity}} = $ {{price*quantity}} </p>\n\n  </ion-card-content>\n  </ion-card>\n</ion-content>\n'/*ion-inline-end:"/Users/phoenix/Documents/GitHub/App-Dev-Coursework/Restaurant/src/pages/item-detail/item-detail.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* ViewController */], __WEBPACK_IMPORTED_MODULE_2__providers_data__["a" /* Data */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* ViewController */], __WEBPACK_IMPORTED_MODULE_2__providers_data__["a" /* Data */]])
     ], ItemDetailPage);
     return ItemDetailPage;
 }());
@@ -59,7 +59,7 @@ var ItemDetailPage = (function () {
 
 /***/ }),
 
-/***/ 176:
+/***/ 177:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -103,9 +103,9 @@ var OrderDetailPage = (function () {
     };
     OrderDetailPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-order-detail',template:/*ion-inline-start:"/Users/phoenix/Ionic/Restaurant/src/pages/order-detail/order-detail.html"*/'<ion-header>\n  <ion-navbar color="primary" >\n    <ion-title>\n      {{myDate}}\n    </ion-title>\n     \n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-card>\n    <ion-card-content>\n       <img src="{{url}}"  height="200" width="100" />\n\n      <ion-card-title>\n      {{itemName}}\n      </ion-card-title>\n      {{category}}\n      ${{price}}\n       <br/>\n       {{description}}\n    \n    <p> Total: ${{price}} x {{quantity}} = ${{price*quantity}} </p>\n\n  </ion-card-content>\n  </ion-card>\n</ion-content>'/*ion-inline-end:"/Users/phoenix/Ionic/Restaurant/src/pages/order-detail/order-detail.html"*/,
+            selector: 'page-order-detail',template:/*ion-inline-start:"/Users/phoenix/Documents/GitHub/App-Dev-Coursework/Restaurant/src/pages/order-detail/order-detail.html"*/'<ion-header>\n  <ion-navbar color="primary" >\n    <ion-title>\n      {{myDate}}\n    </ion-title>\n     \n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-card>\n    <ion-card-content>\n       <img src="{{url}}"  height="200" width="100" />\n\n      <ion-card-title>\n      {{itemName}}\n      </ion-card-title>\n      {{category}}\n      ${{price}}\n       <br/>\n       {{description}}\n    \n    <p> Total: ${{price}} x {{quantity}} = ${{price*quantity}} </p>\n\n  </ion-card-content>\n  </ion-card>\n</ion-content>'/*ion-inline-end:"/Users/phoenix/Documents/GitHub/App-Dev-Coursework/Restaurant/src/pages/order-detail/order-detail.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* ViewController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* ViewController */]])
     ], OrderDetailPage);
     return OrderDetailPage;
 }());
@@ -114,7 +114,7 @@ var OrderDetailPage = (function () {
 
 /***/ }),
 
-/***/ 186:
+/***/ 187:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -127,20 +127,20 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 186;
+webpackEmptyAsyncContext.id = 187;
 
 /***/ }),
 
-/***/ 227:
+/***/ 228:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
 	"../pages/item-detail/item-detail.module": [
-		462,
+		463,
 		1
 	],
 	"../pages/order-detail/order-detail.module": [
-		463,
+		464,
 		0
 	]
 };
@@ -155,7 +155,7 @@ function webpackAsyncContext(req) {
 webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
-webpackAsyncContext.id = 227;
+webpackAsyncContext.id = 228;
 module.exports = webpackAsyncContext;
 
 /***/ }),
@@ -191,9 +191,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 var SigninPage = (function () {
-    function SigninPage(navCtrl, data, loadCtrl) {
+    function SigninPage(navCtrl, data) {
         this.navCtrl = navCtrl;
-        this.loadCtrl = loadCtrl;
         this.registerPage = __WEBPACK_IMPORTED_MODULE_4__signup_signup__["a" /* SignupPage */];
         this.password = '';
         this.username = '';
@@ -229,9 +228,9 @@ var SigninPage = (function () {
     };
     SigninPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-signin',template:/*ion-inline-start:"/Users/phoenix/Ionic/Restaurant/src/pages/signin/signin.html"*/'<ion-content padding-top>\n\n  <p class="logo">\n    <!-- <img src="http://placehold.it/300x200"/> -->\n    <img src="../../assets/imgs/logohead.png" />\n  </p>\n\n  <form (submit)="doSignin()">\n    <ion-list inset padding>\n\n      <ion-item>\n        <ion-label stacked>Username</ion-label>\n        <ion-input type="text" [(ngModel)]="username" name="username"></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-label stacked>Password</ion-label>\n        <ion-input type="password" [(ngModel)]="password" name="password"></ion-input>\n      </ion-item>\n      \n      <div padding>\n        <button ion-button color="accent" block>Login</button>\n        <p style="text-align: center">Don\'t you have an acccount? <a [navPush]="registerPage">Signup</a></p>\n      </div>\n\n    </ion-list>\n    </form>\n\n</ion-content>'/*ion-inline-end:"/Users/phoenix/Ionic/Restaurant/src/pages/signin/signin.html"*/
+            selector: 'page-signin',template:/*ion-inline-start:"/Users/phoenix/Documents/GitHub/App-Dev-Coursework/Restaurant/src/pages/signin/signin.html"*/'<ion-content padding-top>\n\n  <p class="logo">\n    <!-- <img src="http://placehold.it/300x200"/> -->\n    <img src="../../assets/imgs/logohead.png" />\n  </p>\n\n  <form (submit)="doSignin()">\n    <ion-list inset padding>\n\n      <ion-item>\n        <ion-label stacked>Username</ion-label>\n        <ion-input type="text" [(ngModel)]="username" name="username"></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-label stacked>Password</ion-label>\n        <ion-input type="password" [(ngModel)]="password" name="password"></ion-input>\n      </ion-item>\n      \n      <div padding>\n        <button ion-button color="accent" block>Login</button>\n        <p style="text-align: center">Don\'t you have an acccount? <a [navPush]="registerPage">Signup</a></p>\n      </div>\n\n    </ion-list>\n    </form>\n\n</ion-content>'/*ion-inline-end:"/Users/phoenix/Documents/GitHub/App-Dev-Coursework/Restaurant/src/pages/signin/signin.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_3__providers_data__["a" /* Data */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_3__providers_data__["a" /* Data */]])
     ], SigninPage);
     return SigninPage;
 }());
@@ -261,10 +260,13 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+// Providers
+// import { AuthProvider } from '../../providers/auth/auth';
+// Pages
+//import { TabsPage } from '../tabs/tabs';
 var SignupPage = (function () {
-    function SignupPage(navCtrl, loadCtrl) {
+    function SignupPage(navCtrl) {
         this.navCtrl = navCtrl;
-        this.loadCtrl = loadCtrl;
         this.password = '';
         this.username = '';
         this.verify = '';
@@ -307,9 +309,9 @@ var SignupPage = (function () {
     };
     SignupPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-signup',template:/*ion-inline-start:"/Users/phoenix/Ionic/Restaurant/src/pages/signup/signup.html"*/'<ion-header>\n  <ion-navbar color="primary">\n    <ion-title>Signup</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n\n  <form (submit)="doRegister()">\n    <ion-list padding inset scroll="false">\n\n      <ion-item>\n        <ion-label stacked>Username</ion-label>\n        <ion-input type="text" [(ngModel)]="username" name="username"></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-label stacked>Password</ion-label>\n        <ion-input type="password" [(ngModel)]="password" name="password"></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-label stacked>Verify Password</ion-label>\n        <ion-input type="password" [(ngModel)]="confirm" name="verify"></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-label stacked>Email</ion-label>\n        <ion-input type="email" [(ngModel)]="email" name="confirm"></ion-input>\n      </ion-item>\n\n      <div padding>\n        <button ion-button color="accent" block [disabled]="email.length == \'0\' || username.length == \'0\' || password.length == \'0\' || confirm.length == \'0\'">Register</button>\n      </div>\n\n    </ion-list>\n  </form>\n\n</ion-content>\n'/*ion-inline-end:"/Users/phoenix/Ionic/Restaurant/src/pages/signup/signup.html"*/
+            selector: 'page-signup',template:/*ion-inline-start:"/Users/phoenix/Documents/GitHub/App-Dev-Coursework/Restaurant/src/pages/signup/signup.html"*/'<ion-header>\n  <ion-navbar color="primary">\n    <ion-title>Signup</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n\n  <form (submit)="doRegister()">\n    <ion-list padding inset scroll="false">\n\n      <ion-item>\n        <ion-label stacked>Username</ion-label>\n        <ion-input type="text" [(ngModel)]="username" name="username"></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-label stacked>Password</ion-label>\n        <ion-input type="password" [(ngModel)]="password" name="password"></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-label stacked>Verify Password</ion-label>\n        <ion-input type="password" [(ngModel)]="confirm" name="verify"></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-label stacked>Email</ion-label>\n        <ion-input type="email" [(ngModel)]="email" name="confirm"></ion-input>\n      </ion-item>\n\n      <div padding>\n        <button ion-button color="accent" block [disabled]="email.length == \'0\' || username.length == \'0\' || password.length == \'0\' || confirm.length == \'0\'">Register</button>\n      </div>\n\n    </ion-list>\n  </form>\n\n</ion-content>\n'/*ion-inline-end:"/Users/phoenix/Documents/GitHub/App-Dev-Coursework/Restaurant/src/pages/signup/signup.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]])
     ], SignupPage);
     return SignupPage;
 }());
@@ -344,7 +346,7 @@ var TabsPage = (function () {
         this.tab2Root = __WEBPACK_IMPORTED_MODULE_1__my_order_my_order__["a" /* MyOrderPage */];
     }
     TabsPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/Users/phoenix/Ionic/Restaurant/src/pages/tabs/tabs.html"*/'<ion-tabs >\n  <ion-tab [root]="tab1Root" tabTitle="Menu" tabIcon="list-box"></ion-tab>\n  <ion-tab [root]="tab2Root" tabTitle="My Orders" tabIcon="filing"></ion-tab>\n</ion-tabs>\n'/*ion-inline-end:"/Users/phoenix/Ionic/Restaurant/src/pages/tabs/tabs.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/Users/phoenix/Documents/GitHub/App-Dev-Coursework/Restaurant/src/pages/tabs/tabs.html"*/'<ion-tabs >\n  <ion-tab [root]="tab1Root" tabTitle="Menu" tabIcon="list-box"></ion-tab>\n  <ion-tab [root]="tab2Root" tabTitle="My Orders" tabIcon="filing"></ion-tab>\n</ion-tabs>\n'/*ion-inline-end:"/Users/phoenix/Documents/GitHub/App-Dev-Coursework/Restaurant/src/pages/tabs/tabs.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], TabsPage);
@@ -363,7 +365,7 @@ var TabsPage = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_data__ = __webpack_require__(49);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__order_detail_order_detail__ = __webpack_require__(176);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__order_detail_order_detail__ = __webpack_require__(177);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -376,6 +378,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+//import { AddItemPage } from '../add-item/add-item';
+//import { ItemDetailPage } from '../item-detail/item-detail';
 
 
 var MyOrderPage = (function () {
@@ -402,9 +406,9 @@ var MyOrderPage = (function () {
     };
     MyOrderPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-my-order',template:/*ion-inline-start:"/Users/phoenix/Ionic/Restaurant/src/pages/my-order/my-order.html"*/'<ion-header>\n  <ion-navbar color="primary">\n    <ion-title>My Orders</ion-title>\n    \n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n <ion-list>\n\n  <ion-card *ngFor="let order of orders" (click)="viewOrder(order)">\n  <img src="{{order.url}}"  height="150" width="100" />\n  <ion-card-content>\n    <ion-card-title>\n      {{order.itemName}}\n      </ion-card-title>\n    <p >\n      Quantity: {{order.quantity}}\n      <br/>\n     Total: ${{order.price*order.quantity}} \n    <br/> \n    Date/Time: {{order.myDate}}\n  </p>\n  </ion-card-content>\n</ion-card> \n\n</ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/phoenix/Ionic/Restaurant/src/pages/my-order/my-order.html"*/
+            selector: 'page-my-order',template:/*ion-inline-start:"/Users/phoenix/Documents/GitHub/App-Dev-Coursework/Restaurant/src/pages/my-order/my-order.html"*/'<ion-header>\n  <ion-navbar color="primary">\n    <ion-title>My Orders</ion-title>\n    \n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n <ion-list>\n\n  <ion-card *ngFor="let order of orders" (click)="viewOrder(order)">\n  <img src="{{order.url}}"  height="150" width="100" />\n  <ion-card-content>\n    <ion-card-title>\n      {{order.itemName}}\n      </ion-card-title>\n    <p >\n      Quantity: {{order.quantity}}\n      <br/>\n     Total: ${{order.price*order.quantity}} \n    <br/> \n    Date/Time: {{order.myDate}}\n  </p>\n  </ion-card-content>\n</ion-card> \n\n</ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/phoenix/Documents/GitHub/App-Dev-Coursework/Restaurant/src/pages/my-order/my-order.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */], __WEBPACK_IMPORTED_MODULE_2__providers_data__["a" /* Data */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* ModalController */], __WEBPACK_IMPORTED_MODULE_2__providers_data__["a" /* Data */]])
     ], MyOrderPage);
     return MyOrderPage;
 }());
@@ -422,8 +426,8 @@ var MyOrderPage = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_data__ = __webpack_require__(49);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__add_item_add_item__ = __webpack_require__(303);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__edit_item_edit_item__ = __webpack_require__(304);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__item_detail_item_detail__ = __webpack_require__(175);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__edit_item_edit_item__ = __webpack_require__(305);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__item_detail_item_detail__ = __webpack_require__(176);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -469,9 +473,9 @@ var MenuPage = (function () {
     };
     MenuPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-menu',template:/*ion-inline-start:"/Users/phoenix/Ionic/Restaurant/src/pages/menu/menu.html"*/'<ion-header>\n  <ion-navbar color="primary">\n    <ion-title>Menu</ion-title>\n    <ion-buttons end>\n      <button ion-button icon-only (click)="addItem()"><ion-icon name="add-circle"></ion-icon></button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n <ion-list>\n  <ion-card *ngFor="let item of items" (click)="viewItem(item)">\n     <ion-item-sliding #Item>\n      <ion-item>\n        <img src="{{item.url}}"  height="150" width="100" />\n        <ion-card-content>\n          <ion-card-title>\n            {{item.itemName}}\n            </ion-card-title>\n          <p >\n           {{item.category}}\n           ${{item.price}}\n          </p>\n        </ion-card-content>\n      </ion-item>\n      <ion-item-options>\n        <button ion-button (click)="editItem(item)">Edit</button>\n        <button ion-button (click)="deleteItem(item)" color="danger">Delete</button>\n      </ion-item-options>\n    </ion-item-sliding>\n  </ion-card>\n </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/phoenix/Ionic/Restaurant/src/pages/menu/menu.html"*/
+            selector: 'page-menu',template:/*ion-inline-start:"/Users/phoenix/Documents/GitHub/App-Dev-Coursework/Restaurant/src/pages/menu/menu.html"*/'<ion-header>\n  <ion-navbar color="primary">\n    <ion-title>Menu</ion-title>\n    <ion-buttons end>\n      <button ion-button icon-only (click)="addItem()"><ion-icon name="add-circle"></ion-icon></button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n <ion-list>\n  <ion-card *ngFor="let item of items" (click)="viewItem(item)">\n     <ion-item-sliding #Item>\n      <ion-item>\n        <img src="{{item.url}}"  height="150" width="100" />\n        <ion-card-content>\n          <ion-card-title>\n            {{item.itemName}}\n            </ion-card-title>\n          <p >\n           {{item.category}}\n           ${{item.price}}\n          </p>\n        </ion-card-content>\n      </ion-item>\n      <ion-item-options>\n        <button ion-button (click)="editItem(item)">Edit</button>\n        <button ion-button (click)="deleteItem(item)" color="danger">Delete</button>\n      </ion-item-options>\n    </ion-item-sliding>\n  </ion-card>\n </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/phoenix/Documents/GitHub/App-Dev-Coursework/Restaurant/src/pages/menu/menu.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */], __WEBPACK_IMPORTED_MODULE_2__providers_data__["a" /* Data */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* ModalController */], __WEBPACK_IMPORTED_MODULE_2__providers_data__["a" /* Data */]])
     ], MenuPage);
     return MenuPage;
 }());
@@ -490,6 +494,7 @@ var MenuPage = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_data__ = __webpack_require__(49);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_parse__ = __webpack_require__(72);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_parse___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_parse__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_camera__ = __webpack_require__(304);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -503,43 +508,73 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 var AddItemPage = (function () {
-    function AddItemPage(navCtrl, view, dataService) {
+    function AddItemPage(navCtrl, view, dataService, camera) {
         this.navCtrl = navCtrl;
         this.view = view;
         this.dataService = dataService;
+        this.camera = camera;
         this.quantity = 1;
     }
     AddItemPage.prototype.saveItem = function () {
         // this.dataService.setMenuItem(this.itemName, this.price, this.description, this.category, this.url, this.quantity );
         var Menu = __WEBPACK_IMPORTED_MODULE_3_parse__["Parse"].Object.extend("Menu");
         var menu = new Menu();
-        menu.set("name", this.itemName);
-        menu.set("price", parseFloat(this.price));
-        menu.set("category", this.category);
-        menu.set("photoUrl", this.url);
-        menu.set("description", this.description);
-        menu.save(null, {
-            success: function (menu) {
-                // Execute any logic that should take place after the object is saved.
-                alert('New object created with objectId: ' + menu.id);
+        var name = "photo.png";
+        var parseFile = new __WEBPACK_IMPORTED_MODULE_3_parse__["Parse"].File(name, { base64: this.imageData });
+        parseFile.save({
+            success: function (file) {
+                alert('File Saved! Now saving item to Parse...');
+                menu.set("name", this.itemName);
+                menu.set("price", parseFloat(this.price));
+                menu.set("category", this.category);
+                menu.set("photo", parseFile);
+                menu.set("description", this.description);
+                menu.save(null, {
+                    success: function (menu) {
+                        // Execute any logic that should take place after the object is saved.
+                        alert('New object created with objectId: ' + menu.id);
+                    },
+                    error: function (menu, error) {
+                        // Execute any logic that should take place if the save fails.
+                        // error is a Parse.Error with an error code and message.
+                        alert('Failed to create new object, with error code: ' + error.message);
+                    }
+                });
+                this.view.dismiss();
             },
             error: function (menu, error) {
                 // Execute any logic that should take place if the save fails.
                 // error is a Parse.Error with an error code and message.
-                alert('Failed to create new object, with error code: ' + error.message);
+                alert('Failed to save picture');
             }
         });
-        this.view.dismiss();
     };
     AddItemPage.prototype.close = function () {
         this.view.dismiss();
     };
+    AddItemPage.prototype.takePicture = function () {
+        var _this = this;
+        console.log("Entered Successfully");
+        var options = {
+            quality: 100,
+            destinationType: this.camera.DestinationType.DATA_URL,
+            mediaType: this.camera.MediaType.PICTURE
+        };
+        this.camera.getPicture(options).then(function (imageData) {
+            _this.image = 'data:image/jpeg;base64,' + imageData;
+            _this.imageData = imageData;
+        }, function (err) {
+            //this.displayErrorAlert(err);
+            console.log(err);
+        });
+    };
     AddItemPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-add-item',template:/*ion-inline-start:"/Users/phoenix/Ionic/Restaurant/src/pages/add-item/add-item.html"*/'<!--\n  Generated template for the AddItemPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Add Menu Item</ion-title>\n    <ion-buttons end>\n      <button ion-button icon-only (click)="close()"><ion-icon name="close"></ion-icon></button>\n    </ion-buttons>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n	  <ion-list>\n\n    <ion-item>\n      <ion-label floating>Item Name</ion-label>\n      <ion-input type="text" [(ngModel)]="itemName"></ion-input>\n    </ion-item>\n\n     <ion-item>\n      <ion-label floating>Price (USD $) </ion-label>\n      <ion-input type="number" [(ngModel)]="price"></ion-input>\n    </ion-item>\n    <br/>\n\n    <ion-item>\n  <ion-label>Category</ion-label>\n  <ion-select interface="popover" [(ngModel)]="category">\n    <ion-option value="Dish">Dish</ion-option>\n    <ion-option value="Desert">Desert</ion-option>\n    <ion-option value="Drink">Drink</ion-option>\n  </ion-select>\n</ion-item>\n\n    <ion-item>\n      <ion-label floating>Photo (URL) </ion-label>\n      <ion-input type="text" [(ngModel)]="url"></ion-input>\n    </ion-item>\n\n    <ion-item>\n      <ion-label floating>Description</ion-label>\n      <ion-input type="text" [(ngModel)]="description"></ion-input>\n    </ion-item>\n\n  </ion-list>\n\n  <button full ion-button color="primary" (click)="saveItem()">Save</button>\n\n</ion-content>\n'/*ion-inline-end:"/Users/phoenix/Ionic/Restaurant/src/pages/add-item/add-item.html"*/
+            selector: 'page-add-item',template:/*ion-inline-start:"/Users/phoenix/Documents/GitHub/App-Dev-Coursework/Restaurant/src/pages/add-item/add-item.html"*/'<!--\n  Generated template for the AddItemPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Add Menu Item</ion-title>\n    <ion-buttons end>\n      <button ion-button icon-only (click)="close()"><ion-icon name="close"></ion-icon></button>\n    </ion-buttons>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n	  <ion-list>\n\n    <ion-item>\n      <ion-label floating>Item Name</ion-label>\n      <ion-input type="text" [(ngModel)]="itemName"></ion-input>\n    </ion-item>\n\n     <ion-item>\n      <ion-label floating>Price (USD $) </ion-label>\n      <ion-input type="number" [(ngModel)]="price"></ion-input>\n    </ion-item>\n    <br/>\n\n    <ion-item>\n  <ion-label>Category</ion-label>\n  <ion-select interface="popover" [(ngModel)]="category">\n    <ion-option value="Dish">Dish</ion-option>\n    <ion-option value="Desert">Desert</ion-option>\n    <ion-option value="Drink">Drink</ion-option>\n  </ion-select>\n</ion-item>\n\n    <ion-item>\n      <ion-label floating>Photo (URL) </ion-label>\n      <ion-input type="text" [(ngModel)]="url"></ion-input>\n    </ion-item>\n\n    <ion-item>\n      <ion-label floating>Description</ion-label>\n      <ion-input type="text" [(ngModel)]="description"></ion-input>\n    </ion-item>\n\n  </ion-list>\n\n  <img *ngIf="image" [src]="domSanitizer.bypassSecurityTrustUrl(image)" />\n  <button ion-button (click)="takePicture()">\n    Take Photo\n  </button>\n\n  <input type="file" id="pic">\n\n  <button full ion-button color="primary" (click)="saveItem()">Save</button>\n\n</ion-content>\n'/*ion-inline-end:"/Users/phoenix/Documents/GitHub/App-Dev-Coursework/Restaurant/src/pages/add-item/add-item.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* ViewController */], __WEBPACK_IMPORTED_MODULE_2__providers_data__["a" /* Data */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* ViewController */], __WEBPACK_IMPORTED_MODULE_2__providers_data__["a" /* Data */], __WEBPACK_IMPORTED_MODULE_4__ionic_native_camera__["a" /* Camera */]])
     ], AddItemPage);
     return AddItemPage;
 }());
@@ -548,7 +583,7 @@ var AddItemPage = (function () {
 
 /***/ }),
 
-/***/ 304:
+/***/ 305:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -638,25 +673,24 @@ var EditItemPage = (function () {
     };
     EditItemPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-edit-item',template:/*ion-inline-start:"/Users/phoenix/Ionic/Restaurant/src/pages/edit-item/edit-item.html"*/'<!--\n  Generated template for the AddItemPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Edit Menu Item</ion-title>\n    <ion-buttons end>\n      <button ion-button icon-only (click)="close()"><ion-icon name="close"></ion-icon></button>\n    </ion-buttons>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n	  <ion-list>\n\n    <ion-item>\n      <ion-label floating>Item Name</ion-label>\n      <ion-input type="text" [(ngModel)]="itemName"></ion-input>\n    </ion-item>\n\n     <ion-item>\n      <ion-label floating>Price (USD $) </ion-label>\n      <ion-input type="number" [(ngModel)]="price"></ion-input>\n    </ion-item>\n    <br/>\n\n    <ion-item>\n  <ion-label>Category</ion-label>\n  <ion-select interface="popover" [(ngModel)]="category">\n    <ion-option value="Dish">Dish</ion-option>\n    <ion-option value="Desert">Desert</ion-option>\n    <ion-option value="Drink">Drink</ion-option>\n  </ion-select>\n</ion-item>\n\n    <ion-item>\n      <ion-label floating>Photo (URL) </ion-label>\n      <ion-input type="text" [(ngModel)]="url"></ion-input>\n    </ion-item>\n\n    <ion-item>\n      <ion-label floating>Description</ion-label>\n      <ion-input type="text" [(ngModel)]="description"></ion-input>\n    </ion-item>\n\n  </ion-list>\n\n  <button full ion-button color="primary" (click)="saveItem()">Save</button>\n\n</ion-content>\n'/*ion-inline-end:"/Users/phoenix/Ionic/Restaurant/src/pages/edit-item/edit-item.html"*/
+            selector: 'page-edit-item',template:/*ion-inline-start:"/Users/phoenix/Documents/GitHub/App-Dev-Coursework/Restaurant/src/pages/edit-item/edit-item.html"*/'<!--\n  Generated template for the AddItemPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Edit Menu Item</ion-title>\n    <ion-buttons end>\n      <button ion-button icon-only (click)="close()"><ion-icon name="close"></ion-icon></button>\n    </ion-buttons>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n	  <ion-list>\n\n    <ion-item>\n      <ion-label floating>Item Name</ion-label>\n      <ion-input type="text" [(ngModel)]="itemName"></ion-input>\n    </ion-item>\n\n     <ion-item>\n      <ion-label floating>Price (USD $) </ion-label>\n      <ion-input type="number" [(ngModel)]="price"></ion-input>\n    </ion-item>\n    <br/>\n\n    <ion-item>\n  <ion-label>Category</ion-label>\n  <ion-select interface="popover" [(ngModel)]="category">\n    <ion-option value="Dish">Dish</ion-option>\n    <ion-option value="Desert">Desert</ion-option>\n    <ion-option value="Drink">Drink</ion-option>\n  </ion-select>\n</ion-item>\n\n    <ion-item>\n      <ion-label floating>Photo (URL) </ion-label>\n      <ion-input type="text" [(ngModel)]="url"></ion-input>\n    </ion-item>\n\n    <ion-item>\n      <ion-label floating>Description</ion-label>\n      <ion-input type="text" [(ngModel)]="description"></ion-input>\n    </ion-item>\n\n  </ion-list>\n\n  <button full ion-button color="primary" (click)="saveItem()">Save</button>\n\n</ion-content>\n'/*ion-inline-end:"/Users/phoenix/Documents/GitHub/App-Dev-Coursework/Restaurant/src/pages/edit-item/edit-item.html"*/
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* ViewController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* ViewController */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_2__providers_data__["a" /* Data */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__providers_data__["a" /* Data */]) === "function" && _d || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* ViewController */], __WEBPACK_IMPORTED_MODULE_2__providers_data__["a" /* Data */]])
     ], EditItemPage);
     return EditItemPage;
-    var _a, _b, _c, _d;
 }());
 
 //# sourceMappingURL=edit-item.js.map
 
 /***/ }),
 
-/***/ 305:
+/***/ 306:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(306);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(329);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(307);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(330);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -664,7 +698,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 329:
+/***/ 330:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -672,26 +706,28 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(56);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(19);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(453);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_storage__ = __webpack_require__(228);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(454);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_storage__ = __webpack_require__(229);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_my_order_my_order__ = __webpack_require__(301);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_order_detail_order_detail__ = __webpack_require__(176);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_order_detail_order_detail__ = __webpack_require__(177);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_menu_menu__ = __webpack_require__(302);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_tabs_tabs__ = __webpack_require__(300);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_add_item_add_item__ = __webpack_require__(303);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_edit_item_edit_item__ = __webpack_require__(304);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_item_detail_item_detail__ = __webpack_require__(175);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_edit_item_edit_item__ = __webpack_require__(305);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_item_detail_item_detail__ = __webpack_require__(176);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_signin_signin__ = __webpack_require__(298);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_signup_signup__ = __webpack_require__(299);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__ionic_native_status_bar__ = __webpack_require__(294);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__ionic_native_status_bar__ = __webpack_require__(295);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__ionic_native_splash_screen__ = __webpack_require__(297);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__providers_data__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__ionic_native_camera__ = __webpack_require__(304);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__providers_data__ = __webpack_require__(49);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -752,8 +788,9 @@ var AppModule = (function () {
             providers: [
                 __WEBPACK_IMPORTED_MODULE_14__ionic_native_status_bar__["a" /* StatusBar */],
                 __WEBPACK_IMPORTED_MODULE_15__ionic_native_splash_screen__["a" /* SplashScreen */],
+                __WEBPACK_IMPORTED_MODULE_16__ionic_native_camera__["a" /* Camera */],
                 { provide: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicErrorHandler */] },
-                __WEBPACK_IMPORTED_MODULE_16__providers_data__["a" /* Data */]
+                __WEBPACK_IMPORTED_MODULE_17__providers_data__["a" /* Data */]
             ]
         })
     ], AppModule);
@@ -764,14 +801,14 @@ var AppModule = (function () {
 
 /***/ }),
 
-/***/ 453:
+/***/ 454:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(294);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(295);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(297);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_signin_signin__ = __webpack_require__(298);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -787,6 +824,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+//import { TabsPage } from '../pages/tabs/tabs';
 
 var MyApp = (function () {
     function MyApp(platform, statusBar, splashScreen) {
@@ -799,9 +837,9 @@ var MyApp = (function () {
         });
     }
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/Users/phoenix/Ionic/Restaurant/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/Users/phoenix/Ionic/Restaurant/src/app/app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/Users/phoenix/Documents/GitHub/App-Dev-Coursework/Restaurant/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/Users/phoenix/Documents/GitHub/App-Dev-Coursework/Restaurant/src/app/app.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
     return MyApp;
 }());
@@ -815,7 +853,7 @@ var MyApp = (function () {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Data; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ionic_storage__ = __webpack_require__(228);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ionic_storage__ = __webpack_require__(229);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_parse__ = __webpack_require__(72);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_parse___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_parse__);
@@ -986,5 +1024,5 @@ var Data = (function () {
 
 /***/ })
 
-},[305]);
+},[306]);
 //# sourceMappingURL=main.js.map
