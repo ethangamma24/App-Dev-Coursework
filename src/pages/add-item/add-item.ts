@@ -27,7 +27,7 @@ export class AddItemPage {
   // this.dataService.setMenuItem(this.itemName, this.price, this.description, this.category, this.url, this.quantity );
     var Menu = Parse.Object.extend("Menu");
     var menu = new Menu();
-    var name = "photo.png";
+    var name = "photo.jpeg";
 
     var parseFile = new Parse.File(name, this.image);
     parseFile.save({
